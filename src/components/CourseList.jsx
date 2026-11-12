@@ -3,7 +3,7 @@ import CourseItem from './CourseItem.jsx';
 import { initialCourses } from '../data/courses.js';
 
 export default function CourseList() {
-  // [제공] 초기 배열을 useState로 관리합니다.
+  // [제공] 초기 배열을 useState로 관리합니다
   const [courses, setCourses] = useState(initialCourses);
   const [newName, setNewName] = useState('');
 
